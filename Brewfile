@@ -1,7 +1,21 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
-# Desktop client for GitHub repositories
-cask "github"
-# Open-source code editor
-cask "visual-studio-code"
+tap "twilio/brew"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
+# Password generator
+brew "pwgen"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Internet file retriever
+brew "wget"
+# Web browser focusing on privacy
+cask "brave-browser"
+# Open-source Markdown editor
+cask "macdown"
+# Controls and monitors all fans on Apple computers
+cask "macs-fan-control"
